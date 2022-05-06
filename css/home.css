@@ -1,0 +1,187 @@
+body {
+    background-color: white;
+}
+
+header{
+    font-weight: bolder;
+    color: rgb(193, 15, 15);
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(5, 249, 58, 0.608);
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0%;
+}
+
+
+#navigate{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+.menu {
+    margin: 0%;
+    background-color: rgb(247, 251, 6);
+}
+
+.menu li {
+    display: inline-block;
+    padding: 8px;
+    overflow: hidden;
+    width: auto;
+}
+
+.menu li:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.menu li:hover a {
+    font-size: x-large;
+}
+
+.menu li a {
+    color: rgb(238, 11, 11);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: rgb(239, 239, 233);
+    min-width: none;
+    z-index: 1;
+    margin-left: -1%;
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 10px;
+   
+}
+
+.content a:hover {
+    background-color: rgb(197, 209, 146);
+}
+
+.content a {
+    float: none;
+    color: brown;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+}
+
+.menu li:hover .content {
+    display: block;
+}
+
+.mySlides{
+    position: -webkit-sticky;
+    margin: auto;
+    width: -webkit-sticky;
+    width: 99.5%;
+    height: 70%;
+    
+    border: 2px solid steelblue;
+    display: inline-block;
+}
+
+#covidcare,
+#diabetescare {
+    margin: 10px;
+    overflow-x: auto;
+    white-space: normal;
+    align-items: center;
+    /* text-decoration-line: underline; */
+}
+
+.products {
+    position: relative;
+    border-radius: 10px;
+    margin:20px;
+    width: -webkit-sticky;
+    width: 250px;
+    height: 260px;
+    margin-top: 5px;
+    display:inline-block;
+    background-color: rgba(237, 93, 10, 0.603);
+    text-align: center;
+}
+
+.products img {
+    border-radius: none;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.productcost,
+.productoffer {
+    padding-left: 15px;
+    font-size: medium;
+    color: darkblue;
+    text-align: left;
+}
+
+.productname {
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.products:hover {
+    width: 260px;
+    height: 260px;
+    border: 2px solid rgb(7, 7, 7);
+    background-color: burlywood;
+   
+}
+
+input.addtocart {
+    width: 90%;
+}
+
+
+input.addtocart::before {
+    content: attr(value);
+    display: inline-block;
+    background-color: rgb(248, 228, 9);
+    border-radius: none;
+    color: rgb(3, 3, 3);
+    padding: 8px;
+    padding-left: 15px;
+    width: 90%;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    border: 2px solid black;
+    visibility: visible;
+    
+}
+
+
+
+
+input.addtocart:checked::before {
+    content: "Added";
+    background: rgb(250, 234, 230);
+    color: brown;
+    border-color: rgb(0, 255, 76);
+}
+
+h2 {
+    text-decoration: underline;
+    text-align:justify
+  }

@@ -1,0 +1,133 @@
+body {
+    overflow-y: hidden;
+}
+
+#form {
+    background-color: rgba(245, 245, 245, 0.219);
+    position: -webkit-sticky;
+    position: sticky;
+    width: 70%;
+    height: 450px;
+    top: 120px;
+    left: 15%;
+    bottom: 10px;
+    border: 1px solid;
+}
+
+#formdiv {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.686);
+    width: 100%;
+    height: inherit;
+    overflow-y: scroll;
+}
+
+
+
+input {
+    width: 200px;
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    height: 30px;
+    margin-left: 0%;
+    
+}
+
+.inputs {
+    position: relative;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: -4%;
+    
+}
+
+.formheader{
+    margin-top: 50px;
+}
+
+#district {
+    height: 30px;
+    padding-left: 5%;
+    margin-left: 10px;
+    margin-bottom: 0%;
+    border-color: rgb(110, 108, 108);
+    background-color: whitesmoke;
+    border: none;
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+#districtLabel {
+    padding-top: 1%;
+    font-family: 'Arial', sans-serif;
+    color: rgb(110, 108, 108);
+}
+
+input[name^="option"],
+input[name^="hardcopy"] {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#imgdiv {
+    position: -webkit-sticky;
+    position: sticky;
+    position: fixed;
+    top: 120.8px;
+    left: 58.2%;
+    width: auto;
+    width: 25%;
+    margin-right: 0%;
+    bottom: 200px;
+    height: 450.5px;
+    z-index: 1;
+    background-image: url("../Images/Lab-Test/lab-test.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+article {
+    margin-top: 5%;
+}
+
+form {
+    margin-bottom: 8%;
+}
+
+img {
+    position: inherit;
+    width: 50%;
+}
+
+#buttonarticle{
+    position: fixed;
+    bottom:60px;
+    z-index: 3;
+}
+button {
+    position: -webkit-sticky;
+    position: sticky;
+    position: relative;
+    display: inline;
+    margin: 20px;
+    width: 80px;
+    border-radius: 4px;
+    height: 30px;
+    color: rgb(176, 18, 18);
+    font-size: 18px;
+    border: none;
+    background-color: rgb(146, 90, 224);
+    left: 160%;
+    z-index: 1;
+}
+
+button:hover {
+  background-color: rgb(224, 228, 12);
+    
+}
+h2 {
+    text-decoration: underline;
+    text-align:justify
+  }
